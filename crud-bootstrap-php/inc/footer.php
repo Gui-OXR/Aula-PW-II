@@ -7,8 +7,8 @@
         </footer>
 
         <script src="<?php echo BASEURL; ?>js/jquery-3.7.1.min.js"></script>
-        <script src="<?php echo BASEURL; ?>js/awesome.all.min.js"></script>
-        <script src="<?php echo BASEURL; ?>js/bootstrap/bootstrap.min.js"></script>
+        <script src="<?php echo BASEURL; ?>js/awesome/all.min.js"></script>
+        <script src="<?php echo BASEURL; ?>js/bootstrap/bootstrap.bundle.min.js"></script>
         <script src="<?php echo BASEURL; ?>js/main.js"></script>
     </body>
 </html>

@@ -1,20 +1,20 @@
-<?php require_once 'config.php'; ?>
-<?php require_once DBAPI; ?>
+<?php include 'config.php'; ?>
+<?php include DBAPI; ?>
 
 <?php include(HEADER_TEMPLATE); ?>
 <?php $db = open_database(); ?>
 
                 <h1>Dashboard</h1>
-                <hr />
+                <hr>
 
                 <?php if ($db) : ?>
 
                 <div class="row">
                     <div class="col-xs-6 col-sm-3 col-md-2">
-                        <a href="customers/add.php" class="btn btn-primary">
+                        <a href="customers/add.php" class="btn btn-secundary">
                             <div class="row">
                                 <div class="col-xs-12 text-center">
-                                    <i class="fa fa-plus fa-5x"></i>
+                                    <i class="fa-solid fa-user-plus fa-5x"></i>
                                 </div>
                                 <div class="col-xs-12 text-center">
                                     <p>Novo Cliente</p>
@@ -24,10 +24,10 @@
                     </div>
 
                     <div class="col-xs-6 col-sm-3 col-md-2">
-                        <a href="customers" class="btn btn-default">
+                        <a href="customers" class="btn btn-light">
                             <div class="row">
                                 <div class="col-xs-12 text-center">
-                                    <i class="fa fa-user fa-5x"></i>
+                                <i class="fa-solid fa-users fa-5x"></i>
                                 </div>
                                 <div class="col-xs-12 text-center">
                                     <p>Clientes</p>
